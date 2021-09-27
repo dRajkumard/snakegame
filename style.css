@@ -1,0 +1,167 @@
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+
+}
+canvas{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav
+{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background: pink;
+}
+nav{
+   flex: 1;
+  text-align: right;
+}
+.gamelink{
+  height: 400px;
+  width: 600px;
+}
+  .container{
+    max-width: 1400px;
+    margin :auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  nav ul{
+    display: inline-block;
+    list-style-type: none;
+   
+  }
+  nav ul li{
+    text-align: right;
+    display: inline-block;
+    margin-right:20px;
+    
+  }
+  li:hover{
+    background:khaki;
+  }
+
+  a{
+    text-decoration: none;
+    color:#555;
+  }
+  b{
+    padding-right : 100px;
+  
+  }
+  input{
+    border-radius:45px;
+    border-left: 25px;
+    padding:5px;
+  }
+
+  .nav {
+
+    display:flex;
+    align-items: center;
+    padding :5px;
+  }
+.container{
+  max-width: 1400px;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+  
+}
+.logo{
+  margin-left: 45px;
+}
+
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color:#fff;
+  padding :8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 6s;
+
+}
+.btn:hover{
+  background: #563434;
+}
+.header{
+  background:radial-gradient(rgb(226, 202, 202),#ffd6d6);
+}
+.header.row{
+  margin-top: 70px;
+}
+span{
+  color:green
+}
+.both{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+ justify-content: space-around;
+}
+.col{
+  flex-basis: 50%;
+  min: width 300px;
+}
+
+.col img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+.footer{
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+
+ 
+}
+.footer p{
+  color: #8a8a8a;
+  
+}
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-3,.footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+
+
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+
+.footer-col-3,.footer-col-4{
+  flex-basis: 12px;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+.app-logo{
+  margin-top: 20px;
+}
+.app-logo img{
+  width: 140px;
+}
+.footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright{
+  text-align: center;
+}
+.response{
+  display: inline;
+ 
+}
